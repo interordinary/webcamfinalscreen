@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+      * {box-sizing: border-box;}
+      
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #ee7ecb;
+        cursor: pointer;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 17px;
+       
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        cursor: pointer;
+    
+      }
+      
+      .topnav a.active {
+        background-color: #f321b4;
+        color: white;
+        margin-right: 300px;
+      }
+
+      
+
+      
+      
+      .topnav input[type=text] {
+        float: right;
+        padding: 25px;
+        margin-top: 8px;
+        margin-right: 16px;
+        border: none;
+        font-size: 17px;
+      }
+
+    .topnav .finallogo {
+        float: left;
+        margin-right: 60px;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .topnav a, .topnav input[type=text] {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 20px;
+          padding: 14px;
+        }
+        
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+       
+      }
+
+      .topnav .socials {
+        cursor:pointer;
+      }
+
+      
+      </style>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <div class="topnav">
+
+      <img class="finallogo" src="finallogo.gif" alt="Hot Gossip!" width="200", height="100">
+      <a class="active" href="#sellyourgossip">Sell your juicy celeb gossip!</a>
+  
+      <a class="socials" href="#socials"> <img class="instagram" src ="instagram.png" alt="Instagram" width="50" height="50"></a>
+      <a class="socials" href="#socials"> <img class="facebook" src ="facebook.png" alt="Facebook" width="50" height="50"></a>
+      <a class="socials" href="#socials"> <img class="x" src ="x.png" alt="X" width="50" height="50"></a>
+
+      <input type="text" placeholder="Search..">
+      
+    </div>
+    
+    
+    
+    <div style="padding-left:16px">
+  
+    
+    </div>
+  </body>
+</html>
